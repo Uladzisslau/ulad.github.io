@@ -1,0 +1,81 @@
+main.conteiner 
+    section.section-food 
+        .container
+            .conteiner__foods 
+                mixin foods(imgvar)
+                    .foods-box
+                        .foods_img 
+                            img(src=imgvar, alt="")
+                        .foods_main Best Quality Products Pen Foods
+                        .foods_text Dogs leave paw prints forever on our hearts. A dog shade the. 
+                        .foods_datails    
+                            a(class="datails" href="#") See Details 
+                +foods("../assets/imgs/food1.png")
+                +foods("../assets/imgs/food2.png")
+                +foods("../assets/imgs/food3.png")
+    section.popular
+        .container
+            .container__popular
+                .popular-title
+                    .foods_main Popular Products
+                    .foods_text A dog in heat needs more than shade The more people I meet the more I like my dog.Dogs leave paw prints forever on our hearts.
+                .popular-big
+                    mixin popular-big(imgvar)
+                        .popular-box
+                            .popular_img 
+                                img(src=imgvar, alt="")
+                            .popular_main Mauris blandit aliquet
+                            .popular_datails    
+                                a(class="datails" href="#") View Details 
+                    +popular-big("../assets/imgs/pop1.png")
+                    +popular-big("../assets/imgs/pop2.png")
+                .popular-small
+                    mixin popular-big(imgvar)
+                        .popular-box
+                            .popular_img 
+                                img(src=imgvar, alt="")
+                            .popular_main Mauris blandit aliquet
+                            .popular_datails    
+                                a(class="datails" href="#") View Details 
+                    +popular-big("../assets/imgs/pop3.png")
+                    +popular-big("../assets/imgs/pop4.png")
+                    +popular-big("../assets/imgs/pop5.png")
+            .container__vet
+                .vet_img 
+                    img.vet(src="./assets/imgs/vet.png", alt="")
+                .vet_care
+                    .vet_care-title Dog Care
+                    .vet_care-main Start your adoption journey with us
+                    .vet_care-text A dog in heat needs more than shade The more people I meet the more I like my dog.The more people I meet the more I like my Dogs leave paw prints forever on our hearts.
+                    .vet_care-btn
+                        a.btn-ornge(href="#") Appointment Now
+                        a.btn-ornge(href="#") See Details
+            .container__subscribe
+                .subscribe_title How the Monthly Subscription Work?
+                .subscribe-box 
+                    mixin subscribe(imgvar)
+                        .subscribe_box
+                            .subscribe_img 
+                                img(src=imgvar, alt="")
+                            .subscribe_main Dogs leave paw prints forever on our hearts
+                            .subscribe_text Dogs never bite me. Just humans.Happiness is a warm puppy. My little dog a heartbeat at my feet.Necessity has the face of a dog.
+                            .subscribe_datails    
+                                a(class="datails" href="#") View Details 
+                    +subscribe("../assets/imgs/sub1.png")
+                    +subscribe("../assets/imgs/sub2.png")
+                    +subscribe("../assets/imgs/sub3.png")
+                .subscribe_btn
+                    a.btn-ornge(href="#") Subscribe
+            .container__gallery
+                .gallery-left 
+                     .left_title Popular Products Gallery
+                     .left_text A dog in heat needs more than shade The more people I meet the more I like my dog.Dogs leave paw prints forever on our hearts.
+                     .left_img  
+                .gallery-img
+                    img.vet(src="./assets/imgs/gall.png", alt="")
+            .container__reviews Products Testimonial
+            .container__message
+                .message-text
+                    .mess_title Dogs leave paw prints forever.
+                    .mess_text A dog in heat needs more than shade The more people I meet the more I like my dog.   
+                .message-input

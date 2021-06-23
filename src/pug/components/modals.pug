@@ -1,0 +1,41 @@
+section.section-food 
+        .container
+            .conteiner__foods 
+                mixin foods(imgvar)
+                    .foods-box
+                        .foods_img 
+                            img.foods-img(src=imgvar, alt="")
+                        .foods_main Best Quality Products Pen Foods
+                        .foods_text Dogs leave paw prints forever on our hearts. A dog shade the. 
+                        .foods_datails    
+                            a(class="datails" href="#") See Details 
+                +foods("../assets/imgs/food1.png")
+                +foods("../assets/imgs/food2.png")
+                +foods("../assets/imgs/food3.png")
+section.popular
+        .container
+            .container__popular
+                .popular-title
+                    .foods_main Popular Products
+                    .foods_text A dog in heat needs more than shade The more people I meet the more I like my dog.Dogs leave paw prints forever on our hearts.
+                .popular-big
+                    mixin popular-big(imgvar)
+                        .popular-box
+                            .popular_img 
+                                img(src=imgvar, alt="")
+                            .popular_main Mauris blandit aliquet
+                            .popular_datails    
+                                a(class="datails" href="#") View Details 
+                    +popular-big("../assets/imgs/pop1.png")
+                    +popular-big("../assets/imgs/pop2.png")
+                .popular-small
+                    mixin popular-big(imgvar)
+                        .popular-box
+                            .popular_img 
+                                img(src=imgvar, alt="")
+                            .popular_main Mauris blandit aliquet
+                            .popular_datails    
+                                a(class="datails" href="#") View Details 
+                    +popular-big("../assets/imgs/pop3.png")
+                    +popular-big("../assets/imgs/pop4.png")
+                    +popular-big("../assets/imgs/pop5.png")
