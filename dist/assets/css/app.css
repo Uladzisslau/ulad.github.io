@@ -471,12 +471,6 @@ header.initial {
   .title-text {
     font-size: 4rem;
     line-height: 4rem; }
-  .btn-ornge {
-    width: 10rem;
-    padding: 0.5rem 0;
-    font-size: 12px;
-    line-height: 18px;
-    margin-top: 1rem; }
   header.initial {
     padding: 0; }
   .tools-search {
@@ -488,12 +482,6 @@ header.initial {
   .title-text {
     font-size: 2rem;
     line-height: 3rem; }
-  .btn-ornge {
-    width: 8rem;
-    padding: 0.5rem 0;
-    font-size: 11px;
-    line-height: 18px;
-    margin-top: 1rem; }
   header.initial {
     padding: 0; }
   .tools-search {
